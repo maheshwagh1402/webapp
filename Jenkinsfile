@@ -5,7 +5,7 @@ node {
 }
    stage('Build') {
       def mvnHome=tool name: 'maven', type: 'maven'
-      sh '${mvnHome}/bin/mvn package'
+      sh '${mvnHome}/mvn package'
 
     }
     stage('Package') {
