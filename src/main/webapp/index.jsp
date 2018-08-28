@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="https://www.zensar.com/">Zensar</a>
         </div>
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
@@ -62,17 +62,17 @@
         <div class="col-md-4">
             <h2>Introduction</h2>
             <p> This is Home Page. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-default" href="https://www.google.com/" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>Notifications</h2>
             <p> The changes made in code are updated here. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-default" href="https://www.google.com/" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>Output</h2>
             <p>Hello World !!</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-default" href="https://www.google.com/" role="button">View details &raquo;</a></p>
         </div>
     </div>
 
