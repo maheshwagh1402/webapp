@@ -4,15 +4,14 @@ node {
 
 }
    stage('Build') {
-     def mvn_version = 'apache-maven-3.5.4'
-      withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
-       sh "mvn clean package"
+     def mvn_version = tool name: 'Maven', type: 'maven'
+      sh "{$mvnHome}/bin/mvn package"
 }
 
     }
-    stage('Package') {
+    stage('Package-Deploy') {
     sshagent(['tomcat-deploy']) {
-    sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.4.228:/opt/apache-tomcat-9.0.10/webapps/'
+    sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.16.100:/var/lib/tomacat8/webapps/'
 }
 }
 
