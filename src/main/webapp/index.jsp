@@ -60,17 +60,17 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
+            <h2>Introduction</h2>
             <p> This is Home Page. </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
+            <h2>Notifications</h2>
             <p> The changes made in code are updated here. </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
+            <h2>Output</h2>
             <p>Hello World !!</p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
