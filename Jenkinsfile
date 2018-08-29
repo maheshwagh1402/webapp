@@ -10,7 +10,7 @@ node {
 }
 }
     stage('Package-Deploy') {
-        sh 'sudo cp target/*.war /var/lib/tomcat8/webapps'
+        sh 'sudo cp **/*.war /var/lib/tomcat8/webapps'
 
 }
 
