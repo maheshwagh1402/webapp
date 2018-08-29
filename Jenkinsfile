@@ -10,7 +10,7 @@ node {
 }
 }
     stage('Package-Deploy') {
-        sh 'cp target/*.war /var/lib/tomacat8/webapps/'
+        sh 'cp target/*.war /var/lib/tomcat8/webapps'
 
 }
 
