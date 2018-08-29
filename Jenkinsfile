@@ -10,9 +10,8 @@ node {
 }
 }
     stage('Package-Deploy') {
-    sshagent(['tomcat-dev']) {
-    sh 'cp target/*.war var/lib/tomacat8/webapps/'
-}
+        sh 'cp target/*.war var/lib/tomacat8/webapps/'
+
 }
 
 
