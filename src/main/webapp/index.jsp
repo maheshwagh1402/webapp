@@ -61,7 +61,7 @@
     <div class="row">
         <div class="col-md-4">
             <h2>Introduction</h2>
-            <p> This is Home Page. </p>
+            <p> Welcome to Home Page. </p>
             <p><a class="btn btn-default" href="https://www.google.com/" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
