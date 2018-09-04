@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://www.zensar.com/">Zensar</a>
+            <a class="navbar-brand" href="https://www.zensar.com/"><b>Zensar</b></a>
         </div>
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
